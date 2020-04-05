@@ -15,6 +15,24 @@
 	"description": "ES Proposal spec-compliant shim for Promise.allSettled",
 	"license": "MIT",
 	"main": "index.js",
+	"types": "types",
+	"exports": {
+		".": [
+			{
+				"import": "./index.mjs",
+				"require": "./index.js",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./package": "./package.json",
+		"./package.json": "./package.json",
+		"./auto": "./auto.js",
+		"./implementation": "./implementation.js",
+		"./polyfill": "./polyfill.js",
+		"./requirePromise": "./requirePromise.js",
+		"./shim": "./shim.js"
+	},
 	"scripts": {
 		"prepublish": "safe-publish-latest",
 		"pretest": "npm run --silent lint && es-shim-api --bound",
