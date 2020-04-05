@@ -1,15 +1,14 @@
 {
-	"name": "promise.allsettled",
+	"name": "@d-fischer/promise.allsettled",
 	"version": "1.0.2",
-	"author": "Jordan Harband <ljharb@gmail.com>",
+	"author": "Daniel Fischer <daniel@d-fischer.dev",
 	"funding": {
-		"url": "https://github.com/sponsors/ljharb"
+		"url": "https://github.com/sponsors/d-fischer"
 	},
 	"contributors": [
 		{
-			"name": "Jordan Harband",
-			"email": "ljharb@gmail.com",
-			"url": "http://ljharb.codes"
+			"name": "Daniel Fischer",
+			"email": "daniel@d-fischer.dev"
 		}
 	],
 	"description": "ES Proposal spec-compliant shim for Promise.allSettled",
