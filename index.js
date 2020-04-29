@@ -19,8 +19,8 @@ var rebindable = function allSettled(iterable) {
 define(rebindable, {
 	getPolyfill: getPolyfill,
 	implementation: implementation,
-	shim: shim,
-	rebindable: rebindable
+	shim: shim
 });
 
 module.exports = rebindable;
+module.exports.default = rebindable;
