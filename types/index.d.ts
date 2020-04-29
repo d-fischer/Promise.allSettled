@@ -18,7 +18,7 @@ import {
 } from './types';
 
 type ExportedImplementationType = typeof implementation & {
-    rebindable: typeof implementation,
+    default: typeof implementation,
     getPolyfill: typeof getPolyfill,
     implementation: typeof implementation,
     shim: typeof shim,

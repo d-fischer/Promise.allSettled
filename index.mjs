@@ -6,7 +6,6 @@ import shim from './shim.js';
 export default allSettled;
 
 export {
-    allSettled as rebindable,
     implementation,
     getPolyfill,
     shim
