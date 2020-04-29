@@ -1,6 +1,6 @@
 {
 	"name": "@d-fischer/promise.allsettled",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"author": "Daniel Fischer <daniel@d-fischer.dev>",
 	"funding": {
 		"url": "https://github.com/sponsors/d-fischer"
